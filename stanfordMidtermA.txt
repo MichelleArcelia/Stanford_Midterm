@@ -2,27 +2,24 @@ Stanford Mid-term
 Michelle Neptune
 
 
-Problem 1: Karel the Robot  
+******************** Problem 1: Karel the Robot ********************   
 
-We  want  to write  a  Karel  program  which  will  create  an  inside  border  around  the world. Each location that is  part  of  the  border  should  have one (and  only  one) beeper  on  it and the  border should be in set by one square from the outer walls of the world like this:
+We want to write a Karel program which  will create an inside border around the world. Each location that is  part of the  border should have one (and only one) beeper on it and the  border should be in set by one square from the outer walls of the world like this:
 
 
 In solving this problem, you can count on the following facts about the world:
 
-You  may  assume  that  the  world  is  at  least  3x3  squares.The  correct solution  for  a  3x3 square world is to place a single beeper in the center square.
+*** You may assume that the world is at least 3x3 squares. The correct solution for a 3x3 square world is to place a single beeper in the center square.
 
-Karel  starts  off  facing East  at  the  corner  of  1stStreet  and  1stAvenue  with  an  infinite number beepers in its beeper bag.
+*** Karel starts off facing East at the corner of 1st Street and 1st Avenue with an infinite number beepers in its beeper bag.
 
-We do not care about Karel’s final location or heading.
+*** We do not care about Karel’s final location or heading.
 
-You do not need to worry about efficiency.
+*** You do not need to worry about efficiency.
 
-You  are  limited  to the  instructions  in  the  Karel  booklet—the  only  variables  allowed  are loop control variables used within the control section of the for loop.
+You are limited to the instructions in the Karel booklet—the only variables allowed are loop control variables used within the control section of the for loop.
 
-
-
-
-s
+*********************************************************************
 
 
 
