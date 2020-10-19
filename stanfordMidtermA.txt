@@ -21,6 +21,52 @@ You are limited to the instructions in the Karel booklet—the only variables al
 
 *********************************************************************
 
+---------------------------- JAVA PROGRAM ---------------------------
+
+import stanford.karel.*;
+
+	public class karelWithBorder extends SuperKarel {
+	
+		public void run() {
+		
+			moveIntoPosition();
+			dropBeepers();
+			dropBeepers();
+			dropBeepers();
+			dropBeepers();
+			pickBeeper();	
+		}
+	
+	private void moveIntoPosition() {
+			turnLeft();
+			move();
+			turnRight();	
+	}
+	
+	private void dropBeepers() {
+		
+		while(frontIsClear()) {
+		move();
+		putBeeper();
+		
+		if(frontIsBlocked()) {
+			
+			pickBeeper();
+			turnBack();
+			
+			return;
+		}
+	}
+}
+	
+	private void turnBack() {
+		turnLeft();
+		turnLeft();
+		move();
+		turnRight();
+	}
+}
+
 
 
 
