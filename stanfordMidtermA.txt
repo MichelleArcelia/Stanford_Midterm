@@ -26,6 +26,8 @@ You are limited to the instructions in the Karel booklet—the only variables al
 import stanford.karel.*;
 
 	public class karelWithBorder extends SuperKarel {
+
+// RUN METHOD
 	
 		public void run() {
 		
@@ -36,12 +38,16 @@ import stanford.karel.*;
 			dropBeepers();
 			pickBeeper();	
 		}
+
+// Method to move into the second row 
 	
 	private void moveIntoPosition() {
 			turnLeft();
 			move();
 			turnRight();	
 	}
+
+// Method to drop a beeper on the inside second row
 	
 	private void dropBeepers() {
 		
@@ -55,10 +61,12 @@ import stanford.karel.*;
 			turnBack();
 			
 			return;
+			}
 		}
 	}
-}
-	
+
+// Method to turn around off the wall and back into the second row
+ 	
 	private void turnBack() {
 		turnLeft();
 		turnLeft();
